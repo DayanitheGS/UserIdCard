@@ -1,0 +1,93 @@
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+img{
+    height: 150px;
+width: 150px;
+align-items: center;
+justify-content: center;
+border-radius: 500px;
+padding: 7px;
+border: 3px solid;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-height: 100px;
+    margin: 0px;
+
+}
+h3{
+    margin: 12x;
+    font-size: 15px;
+}
+.card{
+  background-color: #353b48;
+  border-radius: 5px;
+  color: rgb(218, 208, 208);
+  border: 5px solid rgb(41, 40, 100);
+  padding-top: 30px;
+  width: 350px;
+  max-width: 100%; 
+  text-align: center;
+  position: relative;
+}
+.net{
+    color: rgb(53, 12, 12);
+    background: rgb(91, 184, 37);
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight:bold ;
+    top: 25px;
+    left: 10px;
+    padding: 2px 5px;
+    position: absolute;
+}
+.online{
+    background-color: greenyellow;
+}
+.offline{
+    background-color: red;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+button.primary{
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 16, 239);
+    border-radius: 5px;
+    padding: 7px 20px;
+    border: 2px solid rgb(47, 47, 135);
+    font-weight: 500;
+}
+button.primary.outline{
+    background-color: transparent;
+}
+.skill{
+    background-color: rgb(14, 11, 85);
+    text-align: left;
+    padding: 10px;;
+    margin: top 10px; 
+    border-radius: 2px;
+
+}
+.skill ul li{
+ list-style-type: none;
+}
+.skill ul li{
+    border: 1px solid #595180;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 5px;
+    margin: 0 8px 8px 0;
+   
+}
